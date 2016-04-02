@@ -1,0 +1,7 @@
+[user]
+	name = Nikita
+	email = ronick25@gmail.com
+[alias]
+	co = checkout
+[core]
+	editor = subl -w

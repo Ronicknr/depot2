@@ -1,0 +1,330 @@
+status: 200
+content-length: 7566
+via: 1.1 papeda.canonical.com:3128 (squid/2.7.STABLE7)
+content-location: https://rec.ubuntu.com/api/1.0/recommend_app/gedit/
+x-cache: HIT from papeda.canonical.com
+age: 141
+expires: Sat, 02 Apr 2016 09:30:00 GMT
+server: Apache
+last-modified: Sat, 02 Apr 2016 09:25:00 GMT
+etag: "4f5eaf567652a7407220b33d3cccf193"
+strict-transport-security: max-age=2592000
+cache-control: max-age=300
+date: Sat, 02 Apr 2016 09:25:00 GMT
+content-type: application/json; charset=utf-8
+x-cache-lookup: HIT from papeda.canonical.com:3128
+
+{
+    "rid": "c571c76f10898210afbbc29b0146b1bc", 
+    "data": [
+        {
+            "package_name": "apturl", 
+            "similarity": 83.0693
+        }, 
+        {
+            "package_name": "gnome-terminal", 
+            "similarity": 71.2946
+        }, 
+        {
+            "package_name": "seahorse", 
+            "similarity": 64.335
+        }, 
+        {
+            "package_name": "gnome-media", 
+            "similarity": 57.8536
+        }, 
+        {
+            "package_name": "eog", 
+            "similarity": 57.6643
+        }, 
+        {
+            "package_name": "gnome-disk-utility", 
+            "similarity": 57.3834
+        }, 
+        {
+            "package_name": "gnome-power-manager", 
+            "similarity": 56.8252
+        }, 
+        {
+            "package_name": "gnome-font-viewer", 
+            "similarity": 52.6418
+        }, 
+        {
+            "package_name": "compiz-core", 
+            "similarity": 50.9694
+        }, 
+        {
+            "package_name": "xdiagnose", 
+            "similarity": 45.4264
+        }, 
+        {
+            "package_name": "shotwell", 
+            "similarity": 43.0116
+        }, 
+        {
+            "package_name": "gucharmap", 
+            "similarity": 38.716
+        }, 
+        {
+            "package_name": "checkbox-qt", 
+            "similarity": 38.1383
+        }, 
+        {
+            "package_name": "gcalctool", 
+            "similarity": 37.2937
+        }, 
+        {
+            "package_name": "vino", 
+            "similarity": 37.1385
+        }, 
+        {
+            "package_name": "gnome-bluetooth", 
+            "similarity": 37.0699
+        }, 
+        {
+            "package_name": "file-roller", 
+            "similarity": 36.6819
+        }, 
+        {
+            "package_name": "gnome-user-share", 
+            "similarity": 34.6646
+        }, 
+        {
+            "package_name": "xterm", 
+            "similarity": 34.291
+        }, 
+        {
+            "package_name": "yelp", 
+            "similarity": 34.0016
+        }, 
+        {
+            "package_name": "network-manager-gnome", 
+            "similarity": 33.8602
+        }, 
+        {
+            "package_name": "usb-creator-gtk", 
+            "similarity": 33.7131
+        }, 
+        {
+            "package_name": "system-config-printer-gnome", 
+            "similarity": 33.7123
+        }, 
+        {
+            "package_name": "software-center", 
+            "similarity": 33.6194
+        }, 
+        {
+            "package_name": "deja-dup", 
+            "similarity": 33.5604
+        }, 
+        {
+            "package_name": "software-properties-gtk", 
+            "similarity": 33.4299
+        }, 
+        {
+            "package_name": "brasero", 
+            "similarity": 33.3101
+        }, 
+        {
+            "package_name": "language-selector-gnome", 
+            "similarity": 31.8609
+        }, 
+        {
+            "package_name": "update-manager", 
+            "similarity": 31.8309
+        }, 
+        {
+            "package_name": "ibus", 
+            "similarity": 30.9841
+        }, 
+        {
+            "package_name": "libreoffice-writer", 
+            "similarity": 30.7375
+        }, 
+        {
+            "package_name": "libreoffice-draw", 
+            "similarity": 30.1789
+        }, 
+        {
+            "package_name": "libreoffice-calc", 
+            "similarity": 29.1959
+        }, 
+        {
+            "package_name": "evince", 
+            "similarity": 28.8233
+        }, 
+        {
+            "package_name": "libreoffice-impress", 
+            "similarity": 28.498
+        }, 
+        {
+            "package_name": "libreoffice-math", 
+            "similarity": 28.4816
+        }, 
+        {
+            "package_name": "simple-scan", 
+            "similarity": 26.8653
+        }, 
+        {
+            "package_name": "totem", 
+            "similarity": 23.6219
+        }, 
+        {
+            "package_name": "xul-ext-ubufox", 
+            "similarity": 22.2332
+        }, 
+        {
+            "package_name": "remmina-common", 
+            "similarity": 21.3176
+        }, 
+        {
+            "package_name": "gnome-orca", 
+            "similarity": 20.8595
+        }, 
+        {
+            "package_name": "landscape-client-ui-install", 
+            "similarity": 19.6121
+        }, 
+        {
+            "package_name": "onboard", 
+            "similarity": 18.1713
+        }, 
+        {
+            "package_name": "firefox", 
+            "similarity": 16.9272
+        }, 
+        {
+            "package_name": "rhythmbox", 
+            "similarity": 15.8134
+        }, 
+        {
+            "package_name": "transmission-gtk", 
+            "similarity": 15.0486
+        }, 
+        {
+            "package_name": "empathy", 
+            "similarity": 14.9368
+        }, 
+        {
+            "package_name": "aisleriot", 
+            "similarity": 14.4014
+        }, 
+        {
+            "package_name": "gnome-sudoku", 
+            "similarity": 14.2614
+        }, 
+        {
+            "package_name": "gnomine", 
+            "similarity": 13.8391
+        }, 
+        {
+            "rating": 4.0, 
+            "package_name": "fofix"
+        }, 
+        {
+            "rating": 4.0, 
+            "package_name": "xvidcap"
+        }, 
+        {
+            "rating": 4.0, 
+            "package_name": "atanks"
+        }, 
+        {
+            "rating": 4.0, 
+            "package_name": "balazar"
+        }, 
+        {
+            "rating": 4.0, 
+            "package_name": "kdebase-runtime"
+        }, 
+        {
+            "rating": 4.0, 
+            "package_name": "kradioripper"
+        }, 
+        {
+            "rating": 4.0, 
+            "package_name": "wicd-gtk"
+        }, 
+        {
+            "rating": 4.0, 
+            "package_name": "cryptkeeper"
+        }, 
+        {
+            "rating": 4.0, 
+            "package_name": "bubbros"
+        }, 
+        {
+            "rating": 3.0, 
+            "package_name": "kdenlive"
+        }, 
+        {
+            "rating": 3.0, 
+            "package_name": "gtg"
+        }, 
+        {
+            "rating": 3.0, 
+            "package_name": "gweled"
+        }, 
+        {
+            "rating": 3.0, 
+            "package_name": "burgerspace"
+        }, 
+        {
+            "rating": 3.0, 
+            "package_name": "w3af"
+        }, 
+        {
+            "rating": 3.0, 
+            "package_name": "etw"
+        }, 
+        {
+            "rating": 3.0, 
+            "package_name": "gourmet"
+        }, 
+        {
+            "rating": 3.0, 
+            "package_name": "eric"
+        }, 
+        {
+            "rating": 3.0, 
+            "package_name": "zeitgeist-core"
+        }, 
+        {
+            "rating": 3.0, 
+            "package_name": "xmille"
+        }, 
+        {
+            "rating": 3.0, 
+            "package_name": "gnome-chess"
+        }, 
+        {
+            "rating": 3.0, 
+            "package_name": "umbrello"
+        }, 
+        {
+            "rating": 3.0, 
+            "package_name": "tora"
+        }, 
+        {
+            "rating": 3.0, 
+            "package_name": "gpointing-device-settings"
+        }, 
+        {
+            "rating": 3.0, 
+            "package_name": "nted"
+        }, 
+        {
+            "rating": 3.0, 
+            "package_name": "zgv"
+        }, 
+        {
+            "rating": 3.0, 
+            "package_name": "ubuntuone-control-panel-gtk"
+        }, 
+        {
+            "rating": 3.0, 
+            "package_name": "gpaint"
+        }
+    ], 
+    "app": "gedit"
+}

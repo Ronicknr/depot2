@@ -1,0 +1,171 @@
+status: 200
+content-length: 4069
+expires: Sat, 02 Apr 2016 13:25:27 GMT
+content-location: https://reviews.ubuntu.com/reviews/api/1.0/review-stats/any/any/updates-last-1-days/
+strict-transport-security: max-age=15768000; includeSubDomains; preload
+vary: Accept,Accept-Encoding
+server: gunicorn/19.3.0
+last-modified: Sat, 02 Apr 2016 09:25:27 GMT
+-content-encoding: gzip
+x-bzr-revision-number: 313
+cache-control: max-age=14400
+date: Sat, 02 Apr 2016 09:26:32 GMT
+content-type: application/json; charset=utf-8
+-varied-accept-encoding: gzip, deflate
+
+[
+    {
+        "ratings_total": 94, 
+        "ratings_average": "4.76", 
+        "app_name": "", 
+        "package_name": "krusader", 
+        "histogram": "[0, 1, 4, 12, 77]"
+    }, 
+    {
+        "ratings_total": 36, 
+        "ratings_average": "2.83", 
+        "app_name": "", 
+        "package_name": "gnome-weather", 
+        "histogram": "[8, 8, 9, 4, 7]"
+    }, 
+    {
+        "ratings_total": 10, 
+        "ratings_average": "4.30", 
+        "app_name": "", 
+        "package_name": "pax-britannica", 
+        "histogram": "[0, 1, 0, 4, 5]"
+    }, 
+    {
+        "ratings_total": 28, 
+        "ratings_average": "2.14", 
+        "app_name": "", 
+        "package_name": "mtink", 
+        "histogram": "[16, 3, 2, 3, 4]"
+    }, 
+    {
+        "ratings_total": 8, 
+        "ratings_average": "1.25", 
+        "app_name": "", 
+        "package_name": "hocr-gtk", 
+        "histogram": "[7, 0, 1, 0, 0]"
+    }, 
+    {
+        "ratings_total": 616, 
+        "ratings_average": "2.30", 
+        "app_name": "", 
+        "package_name": "brasero", 
+        "histogram": "[318, 72, 56, 64, 106]"
+    }, 
+    {
+        "ratings_total": 5, 
+        "ratings_average": "4.60", 
+        "app_name": "", 
+        "package_name": "gmic", 
+        "histogram": "[0, 0, 0, 2, 3]"
+    }, 
+    {
+        "ratings_total": 13, 
+        "ratings_average": "4.38", 
+        "app_name": "", 
+        "package_name": "jajuk", 
+        "histogram": "[1, 0, 1, 2, 9]"
+    }, 
+    {
+        "ratings_total": 64, 
+        "ratings_average": "4.67", 
+        "app_name": "", 
+        "package_name": "screenruler", 
+        "histogram": "[1, 0, 4, 9, 50]"
+    }, 
+    {
+        "ratings_total": 48, 
+        "ratings_average": "4.08", 
+        "app_name": "", 
+        "package_name": "liquidwar", 
+        "histogram": "[4, 2, 4, 14, 24]"
+    }, 
+    {
+        "ratings_total": 10, 
+        "ratings_average": "4.30", 
+        "app_name": "", 
+        "package_name": "pixeluvo", 
+        "histogram": "[0, 1, 1, 2, 6]"
+    }, 
+    {
+        "ratings_total": 410, 
+        "ratings_average": "4.75", 
+        "app_name": "", 
+        "package_name": "smplayer", 
+        "histogram": "[7, 3, 15, 35, 350]"
+    }, 
+    {
+        "ratings_total": 223, 
+        "ratings_average": "3.57", 
+        "app_name": "", 
+        "package_name": "deja-dup", 
+        "histogram": "[48, 21, 15, 33, 106]"
+    }, 
+    {
+        "ratings_total": 11, 
+        "ratings_average": "4.55", 
+        "app_name": "", 
+        "package_name": "kcolorchooser", 
+        "histogram": "[0, 0, 1, 3, 7]"
+    }, 
+    {
+        "ratings_total": 492, 
+        "ratings_average": "4.68", 
+        "app_name": "", 
+        "package_name": "audacious", 
+        "histogram": "[13, 4, 15, 64, 396]"
+    }, 
+    {
+        "ratings_total": 60, 
+        "ratings_average": "4.23", 
+        "app_name": "", 
+        "package_name": "leafpad", 
+        "histogram": "[3, 3, 8, 9, 37]"
+    }, 
+    {
+        "ratings_total": 499, 
+        "ratings_average": "3.61", 
+        "app_name": "", 
+        "package_name": "openshot", 
+        "histogram": "[77, 60, 58, 91, 213]"
+    }, 
+    {
+        "ratings_total": 2094, 
+        "ratings_average": "4.77", 
+        "app_name": "", 
+        "package_name": "vlc", 
+        "histogram": "[42, 21, 51, 159, 1821]"
+    }, 
+    {
+        "ratings_total": 35, 
+        "ratings_average": "3.17", 
+        "app_name": "", 
+        "package_name": "gnome-calculator", 
+        "histogram": "[10, 4, 3, 6, 12]"
+    }, 
+    {
+        "ratings_total": 2, 
+        "ratings_average": "5.00", 
+        "app_name": "", 
+        "package_name": "caffeine", 
+        "histogram": "[0, 0, 0, 0, 2]"
+    }, 
+    {
+        "ratings_total": 130, 
+        "ratings_average": "4.07", 
+        "app_name": "", 
+        "package_name": "avidemux", 
+        "histogram": "[17, 7, 5, 22, 79]"
+    }, 
+    {
+        "ratings_total": 62, 
+        "ratings_average": "3.65", 
+        "app_name": "", 
+        "package_name": "ttf-mscorefonts-installer", 
+        "histogram": "[10, 3, 11, 13, 25]"
+    }
+]

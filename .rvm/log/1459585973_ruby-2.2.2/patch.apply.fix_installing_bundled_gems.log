@@ -1,0 +1,10 @@
+[2016-04-02 11:32:56] __rvm_patch
+__rvm_patch () 
+{ 
+    \patch "$@" || return $?
+}
+current path: /home/ronick/.rvm/src/ruby-2.2.2
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/home/ronick/.rvm/bin:/home/ronick/.rvm/bin
+command(8): __rvm_patch -F 25 -p1 -N -f -i /home/ronick/.rvm/patches/ruby/2.2.2/fix_installing_bundled_gems.patch
+++ patch -F 25 -p1 -N -f -i /home/ronick/.rvm/patches/ruby/2.2.2/fix_installing_bundled_gems.patch
+patching file tool/rbinstall.rb

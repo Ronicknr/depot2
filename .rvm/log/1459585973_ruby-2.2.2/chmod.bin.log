@@ -1,0 +1,25 @@
+[2016-04-02 11:36:14] __rvm_set_executable
+__rvm_set_executable () 
+{ 
+    for __file in "$@";
+    do
+        [[ -x "${__file}" ]] || chmod +x "${__file}";
+    done
+}
+current path: /home/ronick/.rvm/src/ruby-2.2.2
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/home/ronick/.rvm/bin:/home/ronick/.rvm/bin
+command(8): __rvm_set_executable /home/ronick/.rvm/rubies/ruby-2.2.2/bin/erb /home/ronick/.rvm/rubies/ruby-2.2.2/bin/gem /home/ronick/.rvm/rubies/ruby-2.2.2/bin/irb /home/ronick/.rvm/rubies/ruby-2.2.2/bin/rake /home/ronick/.rvm/rubies/ruby-2.2.2/bin/rdoc /home/ronick/.rvm/rubies/ruby-2.2.2/bin/ri /home/ronick/.rvm/rubies/ruby-2.2.2/bin/ruby
+++ for __file in '"$@"'
+++ [[ -x /home/ronick/.rvm/rubies/ruby-2.2.2/bin/erb ]]
+++ for __file in '"$@"'
+++ [[ -x /home/ronick/.rvm/rubies/ruby-2.2.2/bin/gem ]]
+++ for __file in '"$@"'
+++ [[ -x /home/ronick/.rvm/rubies/ruby-2.2.2/bin/irb ]]
+++ for __file in '"$@"'
+++ [[ -x /home/ronick/.rvm/rubies/ruby-2.2.2/bin/rake ]]
+++ for __file in '"$@"'
+++ [[ -x /home/ronick/.rvm/rubies/ruby-2.2.2/bin/rdoc ]]
+++ for __file in '"$@"'
+++ [[ -x /home/ronick/.rvm/rubies/ruby-2.2.2/bin/ri ]]
+++ for __file in '"$@"'
+++ [[ -x /home/ronick/.rvm/rubies/ruby-2.2.2/bin/ruby ]]

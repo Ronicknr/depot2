@@ -1,0 +1,47 @@
+current directory: /home/ronick/.rvm/gems/ruby-2.2.2@rails4.2.3/gems/therubyracer-0.12.2/ext/v8
+/home/ronick/.rvm/rubies/ruby-2.2.2/bin/ruby -r ./siteconf20160402-5951-4kl1lz.rb extconf.rb
+checking for main() in -lpthread... yes
+creating Makefile
+
+To see why this extension failed to compile, please check the mkmf.log which can be found here:
+
+  /home/ronick/.rvm/gems/ruby-2.2.2@rails4.2.3/extensions/x86_64-linux/2.2.0/therubyracer-0.12.2/mkmf.log
+
+current directory: /home/ronick/.rvm/gems/ruby-2.2.2@rails4.2.3/gems/therubyracer-0.12.2/ext/v8
+make "DESTDIR=" clean
+
+current directory: /home/ronick/.rvm/gems/ruby-2.2.2@rails4.2.3/gems/therubyracer-0.12.2/ext/v8
+make "DESTDIR="
+compiling value.cc
+compiling date.cc
+compiling function.cc
+compiling primitive.cc
+compiling script.cc
+compiling gc.cc
+compiling constraints.cc
+compiling constants.cc
+compiling init.cc
+compiling string.cc
+compiling template.cc
+compiling locker.cc
+compiling stack.cc
+compiling message.cc
+compiling rr.cc
+compiling exception.cc
+compiling signature.cc
+compiling array.cc
+compiling invocation.cc
+compiling object.cc
+compiling external.cc
+compiling heap.cc
+compiling context.cc
+compiling backref.cc
+compiling trycatch.cc
+compiling handles.cc
+compiling v8.cc
+compiling accessor.cc
+linking shared-object v8/init.so
+
+current directory: /home/ronick/.rvm/gems/ruby-2.2.2@rails4.2.3/gems/therubyracer-0.12.2/ext/v8
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 init.so ./.gem.20160402-5951-44oovz/v8

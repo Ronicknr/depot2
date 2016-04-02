@@ -1,0 +1,792 @@
+[2016-04-02 11:33:31] __rvm_make
+__rvm_make () 
+{ 
+    \make "$@" || return $?
+}
+current path: /home/ronick/.rvm/src/ruby-2.2.2
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/home/ronick/.rvm/bin:/home/ronick/.rvm/bin
+command(2): __rvm_make -j4
+++ make -j4
+	CC = gcc
+	LD = ld
+	LDSHARED = gcc -shared
+	CFLAGS = -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wno-unused-parameter -Wno-parentheses -Wno-long-long -Wno-missing-field-initializers -Wunused-variable -Wpointer-arith -Wwrite-strings -Wdeclaration-after-statement -Wimplicit-function-declaration -Wdeprecated-declarations -Wno-packed-bitfield-compat -std=iso9899:1999  -fPIC 
+	XCFLAGS = -D_FORTIFY_SOURCE=2 -fstack-protector -fno-strict-overflow -fvisibility=hidden -DRUBY_EXPORT
+	CPPFLAGS =   -I. -I.ext/include/x86_64-linux -I./include -I.
+	DLDFLAGS = -Wl,-soname,libruby.so.2.2  -fstack-protector  
+	SOLIBS = -lpthread -lgmp -ldl -lcrypt -lm  
+compiling main.c
+Using built-in specs.
+compiling dmydln.c
+COLLECT_GCC=gcc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.8/lto-wrapper
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 4.8.4-2ubuntu1~14.04.1' --with-bugurl=file:///usr/share/doc/gcc-4.8/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.8 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.8 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-libmudflap --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.8-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 4.8.4 (Ubuntu 4.8.4-2ubuntu1~14.04.1) 
+compiling miniinit.c
+compiling miniprelude.c
+copying dummy probes.h
+compiling bignum.c
+compiling class.c
+compiling compar.c
+compiling complex.c
+compiling dir.c
+compiling dln_find.c
+compiling encoding.c
+compiling enum.c
+compiling enumerator.c
+compiling error.c
+compiling eval.c
+compiling load.c
+compiling proc.c
+compiling file.c
+compiling gc.c
+compiling hash.c
+compiling inits.c
+compiling io.c
+compiling marshal.c
+compiling math.c
+compiling node.c
+compiling numeric.c
+compiling object.c
+compiling pack.c
+compiling parse.c
+compiling process.c
+compiling random.c
+compiling range.c
+compiling rational.c
+compiling re.c
+compiling regcomp.c
+compiling regenc.c
+compiling regerror.c
+compiling regexec.c
+compiling regparse.c
+compiling regsyntax.c
+compiling ruby.c
+compiling safe.c
+compiling signal.c
+compiling sprintf.c
+compiling st.c
+compiling strftime.c
+compiling string.c
+compiling struct.c
+compiling symbol.c
+compiling time.c
+compiling transcode.c
+compiling util.c
+compiling variable.c
+compiling version.c
+compiling compile.c
+compiling debug.c
+compiling iseq.c
+compiling vm.c
+compiling vm_dump.c
+compiling vm_backtrace.c
+compiling vm_trace.c
+compiling thread.c
+compiling cont.c
+compiling ./enc/ascii.c
+compiling ./enc/us_ascii.c
+compiling ./enc/unicode.c
+compiling ./enc/utf_8.c
+compiling newline.c
+compiling ./missing/setproctitle.c
+compiling ./missing/strlcat.c
+compiling ./missing/strlcpy.c
+compiling addr2line.c
+compiling dmyext.c
+compiling dmyenc.c
+compiling dln.c
+compiling localeinit.c
+compiling prelude.c
+compiling array.c
+linking miniruby
+generating encdb.h
+rbconfig.rb updated
+generating enc.mk
+creating verconf.h
+encdb.h updated
+verconf.h updated
+compiling loadpath.c
+making srcs under enc
+make[1]: Entering directory `/home/ronick/.rvm/src/ruby-2.2.2'
+make[1]: Nothing to be done for `srcs'.
+make[1]: Leaving directory `/home/ronick/.rvm/src/ruby-2.2.2'
+generating transdb.h
+linking static-library libruby-static.a
+transdb.h updated
+verifying static-library libruby-static.a
+linking shared-library libruby.so.2.2.0
+making enc
+making trans
+generating makefile exts.mk
+make[1]: Entering directory `/home/ronick/.rvm/src/ruby-2.2.2'
+compiling ./enc/trans/transdb.c
+make[1]: Entering directory `/home/ronick/.rvm/src/ruby-2.2.2'
+compiling ./enc/trans/big5.c
+compiling ./enc/encdb.c
+configuring -test-/array/resize
+configuring -test-/bignum
+configuring -test-/bug-3571
+configuring -test-/bug-3662
+compiling ./enc/trans/chinese.c
+configuring -test-/bug-5832
+configuring -test-/bug_reporter
+configuring -test-/class
+configuring -test-/debug
+configuring -test-/exception
+configuring -test-/fatal
+configuring -test-/file
+configuring -test-/float
+configuring -test-/funcall
+configuring -test-/hash
+configuring -test-/iseq_load
+configuring -test-/iter
+configuring -test-/load/dot.dot
+configuring -test-/marshal/compat
+configuring -test-/marshal/usr
+configuring -test-/method
+configuring -test-/num2int
+configuring -test-/path_to_class
+configuring -test-/postponed_job
+configuring -test-/printf
+configuring -test-/proc
+configuring -test-/rational
+configuring -test-/recursion
+configuring -test-/st/foreach
+configuring -test-/st/numhash
+configuring -test-/st/update
+configuring -test-/string
+configuring -test-/struct
+compiling ./enc/big5.c
+configuring -test-/symbol
+compiling ./enc/cp949.c
+compiling ./enc/emacs_mule.c
+configuring -test-/tracepoint
+configuring -test-/typeddata
+configuring -test-/wait_for_single_fd
+configuring -test-/win32/console
+Failed to configure -test-/win32/console. It will not be installed.
+configuring -test-/win32/dln
+Failed to configure -test-/win32/dln. It will not be installed.
+Failed to configure -test-/win32/dln/empty. It will not be installed.
+configuring -test-/win32/fd_setsize
+Failed to configure -test-/win32/fd_setsize. It will not be installed.
+configuring bigdecimal
+compiling ./enc/euc_jp.c
+configuring continuation
+configuring coverage
+configuring date
+configuring dbm
+compiling ./enc/euc_kr.c
+compiling ./enc/euc_tw.c
+compiling ./enc/trans/emoji.c
+compiling ./enc/gb2312.c
+compiling ./enc/gb18030.c
+compiling ./enc/gbk.c
+compiling ./enc/trans/emoji_iso2022_kddi.c
+compiling ./enc/iso_8859_1.c
+compiling ./enc/iso_8859_2.c
+compiling ./enc/iso_8859_3.c
+compiling ./enc/iso_8859_4.c
+compiling ./enc/iso_8859_5.c
+compiling ./enc/iso_8859_6.c
+compiling ./enc/iso_8859_7.c
+compiling ./enc/trans/emoji_sjis_docomo.c
+compiling ./enc/iso_8859_8.c
+compiling ./enc/iso_8859_9.c
+compiling ./enc/iso_8859_10.c
+compiling ./enc/iso_8859_11.c
+compiling ./enc/iso_8859_13.c
+compiling ./enc/iso_8859_14.c
+compiling ./enc/iso_8859_15.c
+compiling ./enc/trans/emoji_sjis_kddi.c
+compiling ./enc/iso_8859_16.c
+compiling ./enc/koi8_r.c
+compiling ./enc/koi8_u.c
+compiling ./enc/shift_jis.c
+compiling ./enc/utf_16be.c
+compiling ./enc/utf_16le.c
+compiling ./enc/utf_32be.c
+compiling ./enc/utf_32le.c
+compiling ./enc/windows_31j.c
+compiling ./enc/windows_1251.c
+compiling ./enc/trans/emoji_sjis_softbank.c
+linking encoding encdb.so
+linking encoding big5.so
+linking encoding cp949.so
+linking encoding emacs_mule.so
+linking encoding euc_jp.so
+linking encoding euc_kr.so
+linking encoding euc_tw.so
+linking encoding gb2312.so
+linking encoding gb18030.so
+compiling ./enc/trans/escape.c
+linking encoding gbk.so
+linking encoding iso_8859_1.so
+linking encoding iso_8859_2.so
+compiling ./enc/trans/gb18030.c
+linking encoding iso_8859_3.so
+linking encoding iso_8859_4.so
+linking encoding iso_8859_5.so
+linking encoding iso_8859_6.so
+linking encoding iso_8859_7.so
+linking encoding iso_8859_8.so
+linking encoding iso_8859_9.so
+linking encoding iso_8859_10.so
+linking encoding iso_8859_11.so
+linking encoding iso_8859_13.so
+linking encoding iso_8859_14.so
+linking encoding iso_8859_15.so
+linking encoding iso_8859_16.so
+linking encoding koi8_r.so
+compiling ./enc/trans/gbk.c
+linking encoding koi8_u.so
+linking encoding shift_jis.so
+linking encoding utf_16be.so
+linking encoding utf_16le.so
+linking encoding utf_32be.so
+linking encoding utf_32le.so
+linking encoding windows_31j.so
+linking encoding windows_1251.so
+make[1]: Leaving directory `/home/ronick/.rvm/src/ruby-2.2.2'
+compiling ./enc/trans/iso2022.c
+compiling ./enc/trans/japanese.c
+compiling ./enc/trans/japanese_euc.c
+compiling ./enc/trans/japanese_sjis.c
+compiling ./enc/trans/korean.c
+compiling ./enc/trans/single_byte.c
+compiling ./enc/trans/utf8_mac.c
+header: gdbm-ndbm.h
+library: gdbm_compat
+compiling ./enc/trans/utf_16_32.c
+configuring digest
+configuring digest/bubblebabble
+configuring digest/md5
+linking transcoder transdb.so
+linking transcoder big5.so
+linking transcoder chinese.so
+linking transcoder emoji.so
+linking transcoder emoji_iso2022_kddi.so
+linking transcoder emoji_sjis_docomo.so
+linking transcoder emoji_sjis_kddi.so
+linking transcoder emoji_sjis_softbank.so
+linking transcoder escape.so
+linking transcoder gb18030.so
+linking transcoder gbk.so
+linking transcoder iso2022.so
+linking transcoder japanese.so
+linking transcoder japanese_euc.so
+linking transcoder japanese_sjis.so
+linking transcoder korean.so
+linking transcoder single_byte.so
+linking transcoder utf_16_32.so
+linking transcoder utf8_mac.so
+make[1]: Leaving directory `/home/ronick/.rvm/src/ruby-2.2.2'
+making encs
+make[1]: Entering directory `/home/ronick/.rvm/src/ruby-2.2.2'
+make[1]: Leaving directory `/home/ronick/.rvm/src/ruby-2.2.2'
+configuring digest/rmd160
+configuring digest/sha1
+configuring digest/sha2
+configuring etc
+configuring fcntl
+configuring fiber
+configuring fiddle
+configuring gdbm
+configuring io/console
+configuring io/nonblock
+configuring io/wait
+configuring json
+configuring json/generator
+configuring json/parser
+configuring mathn/complex
+configuring mathn/rational
+configuring nkf
+configuring objspace
+configuring openssl
+configuring pathname
+configuring psych
+configuring pty
+configuring racc/cparse
+configuring rbconfig/sizeof
+configuring readline
+configuring ripper
+configuring sdbm
+configuring socket
+configuring stringio
+configuring strscan
+configuring syslog
+configuring thread
+configuring tk
+...........
+check struct members..
+check libraries....
+Use ActiveTcl libraries (if available).
+Search tclConfig.sh and tkConfig.sh...............................
+Fail to find [tclConfig.sh, tkConfig.sh]
+Use X11 libraries (or use TK_XINCLUDES/TK_XLIBSW information on tkConfig.sh).
+Warning:: cannot find X11 library. tcltklib will not be compiled (tcltklib is disabled on your Ruby. That is, Ruby/Tk will not work). Please check configure options. If your Tcl/Tk don't require X11, please try --without-X11.
+Can't find X11 libraries. 
+So, can't make tcltklib.so which is required by Ruby/Tk.
+Failed to configure tk. It will not be installed.
+Failed to configure tk/tkutil. It will not be installed.
+configuring win32
+Failed to configure win32. It will not be installed.
+configuring win32ole
+Failed to configure win32ole. It will not be installed.
+configuring zlib
+make[1]: Entering directory `/home/ronick/.rvm/src/ruby-2.2.2'
+make[2]: Entering directory `/home/ronick/.rvm/src/ruby-2.2.2/ext/-test-/array/resize'
+compiling resize.c
+make[2]: Entering directory `/home/ronick/.rvm/src/ruby-2.2.2/ext/-test-/bug-3571'
+make[2]: Entering directory `/home/ronick/.rvm/src/ruby-2.2.2/ext/-test-/bignum'
+compiling bug.c
+compiling intpack.c
+make[2]: Entering directory `/home/ronick/.rvm/src/ruby-2.2.2/ext/-test-/bug-3662'
+compiling bug.c
+linking shared-object -test-/array/resize.so
+linking shared-object -test-/bug-3662/bug.so
+linking shared-object -test-/bug-3571/bug.so
+make[2]: Leaving directory `/home/ronick/.rvm/src/ruby-2.2.2/ext/-test-/array/resize'
+make[2]: Entering directory `/home/ronick/.rvm/src/ruby-2.2.2/ext/-test-/bug-5832'
+compiling bug.c
+make[2]: Leaving directory `/home/ronick/.rvm/src/ruby-2.2.2/ext/-test-/bug-3571'
+make[2]: Leaving directory `/home/ronick/.rvm/src/ruby-2.2.2/ext/-test-/bug-3662'
+make[2]: Entering directory `/home/ronick/.rvm/src/ruby-2.2.2/ext/-test-/bug_reporter'
+make[2]: Entering directory `/home/ronick/.rvm/src/ruby-2.2.2/ext/-test-/class'
+compiling bug_reporter.c
+compiling class2name.c
+compiling mul.c
+linking shared-object -test-/bug-5832/bug.so
+compiling init.c
+linking shared-object -test-/bug_reporter/bug_reporter.so
+make[2]: Leaving directory `/home/ronick/.rvm/src/ruby-2.2.2/ext/-test-/bug-5832'
+make[2]: Entering directory `/home/ronick/.rvm/src/ruby-2.2.2/ext/-test-/debug'
+compiling profile_frames.c
+make[2]: Leaving directory `/home/ronick/.rvm/src/ruby-2.2.2/ext/-test-/bug_reporter'
+make[2]: Entering directory `/home/ronick/.rvm/src/ruby-2.2.2/ext/-test-/exception'
+compiling ensured.c
+linking shared-object -test-/class.so
+compiling div.c
+make[2]: Leaving directory `/home/ronick/.rvm/src/ruby-2.2.2/ext/-test-/class'
+make[2]: Entering directory `/home/ronick/.rvm/src/ruby-2.2.2/ext/-test-/fatal'
+compiling rb_fatal.c
+compiling init.c
+compiling init.c
+compiling init.c
+linking shared-object -test-/fatal/rb_fatal.so
+compiling inspector.c
+compiling enc_raise.c
+make[2]: Leaving directory `/home/ronick/.rvm/src/ruby-2.2.2/ext/-test-/fatal'
+make[2]: Entering directory `/home/ronick/.rvm/src/ruby-2.2.2/ext/-test-/file'
+compiling fs.c
+compiling big2str.c
+linking shared-object -test-/debug.so
+compiling dataerror.c
+make[2]: Leaving directory `/home/ronick/.rvm/src/ruby-2.2.2/ext/-test-/debug'
+make[2]: Entering directory `/home/ronick/.rvm/src/ruby-2.2.2/ext/-test-/float'
+compiling nextafter.c
+compiling init.c
+linking shared-object -test-/exception.so
+compiling str2big.c
+compiling stat.c
+compiling init.c
+make[2]: Leaving directory `/home/ronick/.rvm/src/ruby-2.2.2/ext/-test-/exception'
+make[2]: Entering directory `/home/ronick/.rvm/src/ruby-2.2.2/ext/-test-/funcall'
+compiling passing_block.c
+linking shared-object -test-/float.so
+compiling bigzero.c
+linking shared-object -test-/file.so
+linking shared-object -test-/funcall/funcall.so
+make[2]: Leaving directory `/home/ronick/.rvm/src/ruby-2.2.2/ext/-test-/float'
+make[2]: Entering directory `/home/ronick/.rvm/src/ruby-2.2.2/ext/-test-/hash'
+compiling delete.c
+make[2]: Leaving directory `/home/ronick/.rvm/src/ruby-2.2.2/ext/-test-/file'
+make[2]: Entering directory `/home/ronick/.rvm/src/ruby-2.2.2/ext/-test-/iseq_load'
+compiling iseq_load.c
+make[2]: Leaving directory `/home/ronick/.rvm/src/ruby-2.2.2/ext/-test-/funcall'
+make[2]: Entering directory `/home/ronick/.rvm/src/ruby-2.2.2/ext/-test-/iter'
+compiling init.c
+linking shared-object -test-/bignum.so
+compiling init.c
+compiling break.c
+linking shared-object -test-/iseq_load/iseq_load.so
+make[2]: Leaving directory `/home/ronick/.rvm/src/ruby-2.2.2/ext/-test-/iseq_load'
+make[2]: Entering directory `/home/ronick/.rvm/src/ruby-2.2.2/ext/-test-/load/dot.dot'
+make[2]: Leaving directory `/home/ronick/.rvm/src/ruby-2.2.2/ext/-test-/bignum'
+compiling dot.dot.c
+make[2]: Entering directory `/home/ronick/.rvm/src/ruby-2.2.2/ext/-test-/marshal/compat'
+compiling usrcompat.c
+linking shared-object -test-/load/dot.dot/dot.dot.so
+make[2]: Leaving directory `/home/ronick/.rvm/src/ruby-2.2.2/ext/-test-/load/dot.dot'
+compiling yield.c
+linking shared-object -test-/hash.so
+make[2]: Entering directory `/home/ronick/.rvm/src/ruby-2.2.2/ext/-test-/marshal/usr'
+compiling usrmarshal.c
+make[2]: Leaving directory `/home/ronick/.rvm/src/ruby-2.2.2/ext/-test-/hash'
+make[2]: Entering directory `/home/ronick/.rvm/src/ruby-2.2.2/ext/-test-/method'
+compiling init.c
+linking shared-object -test-/marshal/compat.so
+make[2]: Leaving directory `/home/ronick/.rvm/src/ruby-2.2.2/ext/-test-/marshal/compat'
+make[2]: Entering directory `/home/ronick/.rvm/src/ruby-2.2.2/ext/-test-/num2int'
+compiling num2int.c
+linking shared-object -test-/iter.so
+linking shared-object -test-/marshal/usr.so
+compiling arity.c
+make[2]: Leaving directory `/home/ronick/.rvm/src/ruby-2.2.2/ext/-test-/iter'
+make[2]: Entering directory `/home/ronick/.rvm/src/ruby-2.2.2/ext/-test-/path_to_class'
+compiling path_to_class.c
+make[2]: Leaving directory `/home/ronick/.rvm/src/ruby-2.2.2/ext/-test-/marshal/usr'
+make[2]: Entering directory `/home/ronick/.rvm/src/ruby-2.2.2/ext/-test-/postponed_job'
+compiling postponed_job.c
+linking shared-object -test-/method.so
+linking shared-object -test-/num2int/num2int.so
+linking shared-object -test-/path_to_class/path_to_class.so
+linking shared-object -test-/postponed_job.so
+make[2]: Leaving directory `/home/ronick/.rvm/src/ruby-2.2.2/ext/-test-/method'
+make[2]: Entering directory `/home/ronick/.rvm/src/ruby-2.2.2/ext/-test-/printf'
+compiling printf.c
+make[2]: Leaving directory `/home/ronick/.rvm/src/ruby-2.2.2/ext/-test-/num2int'
+make[2]: Entering directory `/home/ronick/.rvm/src/ruby-2.2.2/ext/-test-/proc'
+compiling init.c
+make[2]: Leaving directory `/home/ronick/.rvm/src/ruby-2.2.2/ext/-test-/path_to_class'
+make[2]: Entering directory `/home/ronick/.rvm/src/ruby-2.2.2/ext/-test-/rational'
+compiling rat.c
+make[2]: Leaving directory `/home/ronick/.rvm/src/ruby-2.2.2/ext/-test-/postponed_job'
+make[2]: Entering directory `/home/ronick/.rvm/src/ruby-2.2.2/ext/-test-/recursion'
+compiling recursion.c
+compiling super.c
+linking shared-object -test-/recursion.so
+linking shared-object -test-/rational.so
+linking shared-object -test-/printf.so
+make[2]: Leaving directory `/home/ronick/.rvm/src/ruby-2.2.2/ext/-test-/recursion'
+make[2]: Entering directory `/home/ronick/.rvm/src/ruby-2.2.2/ext/-test-/st/foreach'
+compiling foreach.c
+make[2]: Leaving directory `/home/ronick/.rvm/src/ruby-2.2.2/ext/-test-/rational'
+make[2]: Entering directory `/home/ronick/.rvm/src/ruby-2.2.2/ext/-test-/st/numhash'
+compiling numhash.c
+make[2]: Leaving directory `/home/ronick/.rvm/src/ruby-2.2.2/ext/-test-/printf'
+make[2]: Entering directory `/home/ronick/.rvm/src/ruby-2.2.2/ext/-test-/st/update'
+compiling update.c
+compiling receiver.c
+linking shared-object -test-/proc.so
+linking shared-object -test-/st/update.so
+linking shared-object -test-/st/numhash.so
+make[2]: Leaving directory `/home/ronick/.rvm/src/ruby-2.2.2/ext/-test-/st/update'
+make[2]: Leaving directory `/home/ronick/.rvm/src/ruby-2.2.2/ext/-test-/proc'
+make[2]: Entering directory `/home/ronick/.rvm/src/ruby-2.2.2/ext/-test-/struct'
+make[2]: Entering directory `/home/ronick/.rvm/src/ruby-2.2.2/ext/-test-/string'
+compiling qsort.c
+compiling init.c
+linking shared-object -test-/st/foreach.so
+make[2]: Leaving directory `/home/ronick/.rvm/src/ruby-2.2.2/ext/-test-/st/numhash'
+make[2]: Entering directory `/home/ronick/.rvm/src/ruby-2.2.2/ext/-test-/symbol'
+compiling type.c
+make[2]: Leaving directory `/home/ronick/.rvm/src/ruby-2.2.2/ext/-test-/st/foreach'
+make[2]: Entering directory `/home/ronick/.rvm/src/ruby-2.2.2/ext/-test-/tracepoint'
+compiling tracepoint.c
+compiling member.c
+compiling cstr.c
+compiling init.c
+compiling gc_hook.c
+linking shared-object -test-/struct.so
+make[2]: Leaving directory `/home/ronick/.rvm/src/ruby-2.2.2/ext/-test-/struct'
+make[2]: Entering directory `/home/ronick/.rvm/src/ruby-2.2.2/ext/-test-/typeddata'
+compiling typeddata.c
+linking shared-object -test-/symbol.so
+compiling ellipsize.c
+linking shared-object -test-/tracepoint.so
+make[2]: Leaving directory `/home/ronick/.rvm/src/ruby-2.2.2/ext/-test-/symbol'
+make[2]: Entering directory `/home/ronick/.rvm/src/ruby-2.2.2/ext/-test-/wait_for_single_fd'
+compiling wait_for_single_fd.c
+make[2]: Leaving directory `/home/ronick/.rvm/src/ruby-2.2.2/ext/-test-/tracepoint'
+make[2]: Entering directory `/home/ronick/.rvm/src/ruby-2.2.2/ext/-test-/win32/console'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/home/ronick/.rvm/src/ruby-2.2.2/ext/-test-/win32/console'
+make[2]: Entering directory `/home/ronick/.rvm/src/ruby-2.2.2/ext/-test-/win32/dln'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/home/ronick/.rvm/src/ruby-2.2.2/ext/-test-/win32/dln'
+make[2]: Entering directory `/home/ronick/.rvm/src/ruby-2.2.2/ext/-test-/win32/dln/empty'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/home/ronick/.rvm/src/ruby-2.2.2/ext/-test-/win32/dln/empty'
+make[2]: Entering directory `/home/ronick/.rvm/src/ruby-2.2.2/ext/-test-/win32/fd_setsize'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/home/ronick/.rvm/src/ruby-2.2.2/ext/-test-/win32/fd_setsize'
+make[2]: Entering directory `/home/ronick/.rvm/src/ruby-2.2.2/ext/bigdecimal'
+compiling bigdecimal.c
+linking shared-object -test-/typeddata/typeddata.so
+compiling enc_associate.c
+make[2]: Leaving directory `/home/ronick/.rvm/src/ruby-2.2.2/ext/-test-/typeddata'
+make[2]: Entering directory `/home/ronick/.rvm/src/ruby-2.2.2/ext/continuation'
+compiling continuation.c
+linking shared-object -test-/wait_for_single_fd/wait_for_single_fd.so
+make[2]: Leaving directory `/home/ronick/.rvm/src/ruby-2.2.2/ext/-test-/wait_for_single_fd'
+make[2]: Entering directory `/home/ronick/.rvm/src/ruby-2.2.2/ext/coverage'
+compiling coverage.c
+linking shared-object continuation.so
+compiling modify.c
+make[2]: Leaving directory `/home/ronick/.rvm/src/ruby-2.2.2/ext/continuation'
+make[2]: Entering directory `/home/ronick/.rvm/src/ruby-2.2.2/ext/date'
+compiling date_strptime.c
+compiling init.c
+linking shared-object coverage.so
+make[2]: Leaving directory `/home/ronick/.rvm/src/ruby-2.2.2/ext/coverage'
+make[2]: Entering directory `/home/ronick/.rvm/src/ruby-2.2.2/ext/dbm'
+compiling dbm.c
+compiling set_len.c
+compiling enc_str_buf_cat.c
+compiling coderange.c
+compiling normalize.c
+linking shared-object dbm.so
+linking shared-object -test-/string/string.so
+make[2]: Leaving directory `/home/ronick/.rvm/src/ruby-2.2.2/ext/dbm'
+make[2]: Entering directory `/home/ronick/.rvm/src/ruby-2.2.2/ext/digest'
+compiling digest.c
+compiling date_core.c
+make[2]: Leaving directory `/home/ronick/.rvm/src/ruby-2.2.2/ext/-test-/string'
+make[2]: Entering directory `/home/ronick/.rvm/src/ruby-2.2.2/ext/digest/bubblebabble'
+compiling bubblebabble.c
+linking shared-object digest/bubblebabble.so
+make[2]: Leaving directory `/home/ronick/.rvm/src/ruby-2.2.2/ext/digest/bubblebabble'
+make[2]: Entering directory `/home/ronick/.rvm/src/ruby-2.2.2/ext/digest/md5'
+compiling md5init.c
+linking shared-object digest.so
+installing digest libraries
+installing default digest libraries
+make[2]: Leaving directory `/home/ronick/.rvm/src/ruby-2.2.2/ext/digest'
+make[2]: Entering directory `/home/ronick/.rvm/src/ruby-2.2.2/ext/digest/rmd160'
+compiling rmd160init.c
+compiling md5ossl.c
+linking shared-object digest/md5.so
+compiling rmd160ossl.c
+make[2]: Leaving directory `/home/ronick/.rvm/src/ruby-2.2.2/ext/digest/md5'
+make[2]: Entering directory `/home/ronick/.rvm/src/ruby-2.2.2/ext/digest/sha1'
+compiling sha1init.c
+linking shared-object digest/rmd160.so
+compiling sha1ossl.c
+make[2]: Leaving directory `/home/ronick/.rvm/src/ruby-2.2.2/ext/digest/rmd160'
+make[2]: Entering directory `/home/ronick/.rvm/src/ruby-2.2.2/ext/digest/sha2'
+compiling sha2init.c
+linking shared-object digest/sha1.so
+make[2]: Leaving directory `/home/ronick/.rvm/src/ruby-2.2.2/ext/digest/sha1'
+compiling sha2ossl.c
+make[2]: Entering directory `/home/ronick/.rvm/src/ruby-2.2.2/ext/etc'
+generating constant definitions
+compiling etc.c
+linking shared-object digest/sha2.so
+installing default sha2 libraries
+make[2]: Leaving directory `/home/ronick/.rvm/src/ruby-2.2.2/ext/digest/sha2'
+make[2]: Entering directory `/home/ronick/.rvm/src/ruby-2.2.2/ext/fcntl'
+compiling fcntl.c
+linking shared-object fcntl.so
+make[2]: Leaving directory `/home/ronick/.rvm/src/ruby-2.2.2/ext/fcntl'
+make[2]: Entering directory `/home/ronick/.rvm/src/ruby-2.2.2/ext/fiber'
+compiling fiber.c
+linking shared-object fiber.so
+make[2]: Leaving directory `/home/ronick/.rvm/src/ruby-2.2.2/ext/fiber'
+make[2]: Entering directory `/home/ronick/.rvm/src/ruby-2.2.2/ext/fiddle'
+compiling function.c
+linking shared-object etc.so
+make[2]: Leaving directory `/home/ronick/.rvm/src/ruby-2.2.2/ext/etc'
+make[2]: Entering directory `/home/ronick/.rvm/src/ruby-2.2.2/ext/gdbm'
+compiling gdbm.c
+compiling pointer.c
+compiling conversions.c
+compiling handle.c
+linking shared-object bigdecimal.so
+installing default bigdecimal libraries
+make[2]: Leaving directory `/home/ronick/.rvm/src/ruby-2.2.2/ext/bigdecimal'
+make[2]: Entering directory `/home/ronick/.rvm/src/ruby-2.2.2/ext/io/console'
+compiling console.c
+compiling fiddle.c
+linking shared-object gdbm.so
+make[2]: Leaving directory `/home/ronick/.rvm/src/ruby-2.2.2/ext/gdbm'
+make[2]: Entering directory `/home/ronick/.rvm/src/ruby-2.2.2/ext/io/nonblock'
+compiling nonblock.c
+compiling closure.c
+linking shared-object io/nonblock.so
+make[2]: Leaving directory `/home/ronick/.rvm/src/ruby-2.2.2/ext/io/nonblock'
+make[2]: Entering directory `/home/ronick/.rvm/src/ruby-2.2.2/ext/io/wait'
+compiling wait.c
+linking shared-object io/console.so
+installing default console libraries
+make[2]: Leaving directory `/home/ronick/.rvm/src/ruby-2.2.2/ext/io/console'
+linking shared-object io/wait.so
+make[2]: Entering directory `/home/ronick/.rvm/src/ruby-2.2.2/ext/json'
+linking shared-object fiddle.so
+installing default libraries
+make[2]: Leaving directory `/home/ronick/.rvm/src/ruby-2.2.2/ext/json'
+make[2]: Leaving directory `/home/ronick/.rvm/src/ruby-2.2.2/ext/io/wait'
+make[2]: Entering directory `/home/ronick/.rvm/src/ruby-2.2.2/ext/json/generator'
+compiling generator.c
+make[2]: Entering directory `/home/ronick/.rvm/src/ruby-2.2.2/ext/json/parser'
+compiling parser.c
+installing default fiddle libraries
+make[2]: Leaving directory `/home/ronick/.rvm/src/ruby-2.2.2/ext/fiddle'
+make[2]: Entering directory `/home/ronick/.rvm/src/ruby-2.2.2/ext/mathn/complex'
+compiling complex.c
+linking shared-object mathn/complex.so
+make[2]: Leaving directory `/home/ronick/.rvm/src/ruby-2.2.2/ext/mathn/complex'
+make[2]: Entering directory `/home/ronick/.rvm/src/ruby-2.2.2/ext/mathn/rational'
+compiling rational.c
+linking shared-object mathn/rational.so
+make[2]: Leaving directory `/home/ronick/.rvm/src/ruby-2.2.2/ext/mathn/rational'
+make[2]: Entering directory `/home/ronick/.rvm/src/ruby-2.2.2/ext/nkf'
+compiling nkf.c
+linking shared-object json/ext/parser.so
+make[2]: Leaving directory `/home/ronick/.rvm/src/ruby-2.2.2/ext/json/parser'
+make[2]: Entering directory `/home/ronick/.rvm/src/ruby-2.2.2/ext/objspace'
+compiling objspace.c
+linking shared-object json/ext/generator.so
+make[2]: Leaving directory `/home/ronick/.rvm/src/ruby-2.2.2/ext/json/generator'
+make[2]: Entering directory `/home/ronick/.rvm/src/ruby-2.2.2/ext/openssl'
+compiling ossl_x509revoked.c
+compiling objspace_dump.c
+compiling date_strftime.c
+compiling ossl_engine.c
+compiling object_tracing.c
+linking shared-object objspace.so
+make[2]: Leaving directory `/home/ronick/.rvm/src/ruby-2.2.2/ext/objspace'
+make[2]: Entering directory `/home/ronick/.rvm/src/ruby-2.2.2/ext/pathname'
+compiling pathname.c
+compiling ossl_cipher.c
+compiling ossl_pkey_dh.c
+compiling date_parse.c
+installing default pathname libraries
+linking shared-object pathname.so
+make[2]: Leaving directory `/home/ronick/.rvm/src/ruby-2.2.2/ext/pathname'
+make[2]: Entering directory `/home/ronick/.rvm/src/ruby-2.2.2/ext/psych'
+compiling psych_yaml_tree.c
+compiling psych_to_ruby.c
+compiling psych.c
+compiling ossl_ns_spki.c
+compiling psych_parser.c
+installing default nkf libraries
+linking shared-object nkf.so
+make[2]: Leaving directory `/home/ronick/.rvm/src/ruby-2.2.2/ext/nkf'
+make[2]: Entering directory `/home/ronick/.rvm/src/ruby-2.2.2/ext/pty'
+compiling pty.c
+compiling openssl_missing.c
+compiling psych_emitter.c
+installing default pty libraries
+linking shared-object pty.so
+compiling ossl_pkey_ec.c
+make[2]: Leaving directory `/home/ronick/.rvm/src/ruby-2.2.2/ext/pty'
+make[2]: Entering directory `/home/ronick/.rvm/src/ruby-2.2.2/ext/racc/cparse'
+compiling cparse.c
+linking shared-object psych.so
+installing default psych libraries
+make[2]: Leaving directory `/home/ronick/.rvm/src/ruby-2.2.2/ext/psych'
+make[2]: Entering directory `/home/ronick/.rvm/src/ruby-2.2.2/ext/rbconfig/sizeof'
+compiling sizes.c
+linking shared-object racc/cparse.so
+linking shared-object rbconfig/sizeof.so
+make[2]: Leaving directory `/home/ronick/.rvm/src/ruby-2.2.2/ext/rbconfig/sizeof'
+make[2]: Leaving directory `/home/ronick/.rvm/src/ruby-2.2.2/ext/racc/cparse'
+make[2]: Entering directory `/home/ronick/.rvm/src/ruby-2.2.2/ext/readline'
+compiling readline.c
+make[2]: Entering directory `/home/ronick/.rvm/src/ruby-2.2.2/ext/ripper'
+compiling ripper.c
+compiling ossl_x509store.c
+linking shared-object readline.so
+make[2]: Leaving directory `/home/ronick/.rvm/src/ruby-2.2.2/ext/readline'
+make[2]: Entering directory `/home/ronick/.rvm/src/ruby-2.2.2/ext/sdbm'
+compiling init.c
+compiling ossl_x509crl.c
+installing default date_core libraries
+linking shared-object date_core.so
+make[2]: Leaving directory `/home/ronick/.rvm/src/ruby-2.2.2/ext/date'
+make[2]: Entering directory `/home/ronick/.rvm/src/ruby-2.2.2/ext/socket'
+generating constant definitions
+generating constant definitions
+compiling basicsocket.c
+compiling _sdbm.c
+compiling ossl_x509.c
+compiling socket.c
+linking shared-object sdbm.so
+make[2]: Leaving directory `/home/ronick/.rvm/src/ruby-2.2.2/ext/sdbm'
+make[2]: Entering directory `/home/ronick/.rvm/src/ruby-2.2.2/ext/stringio'
+compiling stringio.c
+compiling ossl_bn.c
+compiling ipsocket.c
+compiling tcpsocket.c
+compiling tcpserver.c
+linking shared-object stringio.so
+compiling ossl_rand.c
+make[2]: Leaving directory `/home/ronick/.rvm/src/ruby-2.2.2/ext/stringio'
+make[2]: Entering directory `/home/ronick/.rvm/src/ruby-2.2.2/ext/strscan'
+compiling strscan.c
+compiling sockssocket.c
+compiling udpsocket.c
+compiling ossl_pkcs7.c
+compiling unixsocket.c
+compiling unixserver.c
+linking shared-object strscan.so
+make[2]: Leaving directory `/home/ronick/.rvm/src/ruby-2.2.2/ext/strscan'
+make[2]: Entering directory `/home/ronick/.rvm/src/ruby-2.2.2/ext/syslog'
+compiling syslog.c
+compiling option.c
+compiling ossl_ssl_session.c
+linking shared-object syslog.so
+installing default syslog libraries
+make[2]: Leaving directory `/home/ronick/.rvm/src/ruby-2.2.2/ext/syslog'
+make[2]: Entering directory `/home/ronick/.rvm/src/ruby-2.2.2/ext/thread'
+compiling thread.c
+compiling ossl_x509req.c
+compiling ancdata.c
+linking shared-object thread.so
+make[2]: Leaving directory `/home/ronick/.rvm/src/ruby-2.2.2/ext/thread'
+make[2]: Entering directory `/home/ronick/.rvm/src/ruby-2.2.2/ext/tk'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/home/ronick/.rvm/src/ruby-2.2.2/ext/tk'
+make[2]: Entering directory `/home/ronick/.rvm/src/ruby-2.2.2/ext/tk/tkutil'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/home/ronick/.rvm/src/ruby-2.2.2/ext/tk/tkutil'
+make[2]: Entering directory `/home/ronick/.rvm/src/ruby-2.2.2/ext/win32'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/home/ronick/.rvm/src/ruby-2.2.2/ext/win32'
+make[2]: Entering directory `/home/ronick/.rvm/src/ruby-2.2.2/ext/win32ole'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/home/ronick/.rvm/src/ruby-2.2.2/ext/win32ole'
+make[2]: Entering directory `/home/ronick/.rvm/src/ruby-2.2.2/ext/zlib'
+compiling zlib.c
+compiling ossl_x509attr.c
+compiling ossl_hmac.c
+compiling raddrinfo.c
+compiling ossl_pkey_dsa.c
+compiling ossl_pkcs12.c
+checking ../.././parse.y and ../.././ext/ripper/eventids2.c
+linking shared-object ripper.so
+installing default ripper libraries
+make[2]: Leaving directory `/home/ronick/.rvm/src/ruby-2.2.2/ext/ripper'
+compiling ossl_x509ext.c
+compiling ifaddr.c
+compiling ossl_asn1.c
+linking shared-object zlib.so
+make[2]: Leaving directory `/home/ronick/.rvm/src/ruby-2.2.2/ext/zlib'
+compiling ossl_config.c
+installing default socket libraries
+compiling init.c
+compiling ossl_x509cert.c
+compiling ossl_x509name.c
+compiling constants.c
+compiling ossl_pkey_rsa.c
+compiling ossl.c
+compiling ossl_pkcs5.c
+compiling ossl_ssl.c
+compiling ossl_ocsp.c
+compiling ossl_bio.c
+compiling ossl_digest.c
+linking shared-object socket.so
+make[2]: Leaving directory `/home/ronick/.rvm/src/ruby-2.2.2/ext/socket'
+compiling ossl_pkey.c
+installing default openssl libraries
+linking shared-object openssl.so
+make[2]: Leaving directory `/home/ronick/.rvm/src/ruby-2.2.2/ext/openssl'
+make[2]: Entering directory `/home/ronick/.rvm/src/ruby-2.2.2'
+linking shared-library libruby.so.2.2.0
+linking ruby
+make[2]: Leaving directory `/home/ronick/.rvm/src/ruby-2.2.2'
+make[1]: Leaving directory `/home/ronick/.rvm/src/ruby-2.2.2'

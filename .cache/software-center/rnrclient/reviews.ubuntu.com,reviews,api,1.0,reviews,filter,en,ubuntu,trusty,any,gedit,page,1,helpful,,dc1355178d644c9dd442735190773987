@@ -1,0 +1,167 @@
+status: 200
+content-length: 5351
+expires: Sat, 02 Apr 2016 09:32:21 GMT
+content-location: https://reviews.ubuntu.com/reviews/api/1.0/reviews/filter/en/ubuntu/trusty/any/gedit/page/1/helpful/
+strict-transport-security: max-age=15768000; includeSubDomains; preload
+vary: Accept
+server: gunicorn/19.3.0
+last-modified: Sat, 02 Apr 2016 09:27:21 GMT
+x-bzr-revision-number: 313
+cache-control: max-age=300
+date: Sat, 02 Apr 2016 09:27:21 GMT
+content-type: application/json; charset=utf-8
+
+[
+    {
+        "origin": "ubuntu", 
+        "rating": 3, 
+        "hide": false, 
+        "app_name": "Text Editor", 
+        "language": "en", 
+        "reviewer_username": "h3rxTKW", 
+        "usefulness_total": 4, 
+        "usefulness_favorable": 4, 
+        "review_text": "Best text editor I found for Ubuntu, but doesnt come close to notepad++", 
+        "date_deleted": null, 
+        "summary": "Good software, but could be better", 
+        "version": "3.10.4-0ubuntu4", 
+        "id": 90548, 
+        "date_created": "2014-09-16 23:12:18", 
+        "reviewer_displayname": "Dominique Beaini", 
+        "package_name": "gedit", 
+        "distroseries": "trusty"
+    }, 
+    {
+        "origin": "ubuntu", 
+        "rating": 5, 
+        "hide": false, 
+        "app_name": "Text Editor", 
+        "language": "en", 
+        "reviewer_username": "sudheer7320", 
+        "usefulness_total": 1, 
+        "usefulness_favorable": 1, 
+        "review_text": "Nice  one", 
+        "date_deleted": null, 
+        "summary": "simple text editor", 
+        "version": "3.10.4-0ubuntu4", 
+        "id": 88742, 
+        "date_created": "2014-07-07 16:20:32", 
+        "reviewer_displayname": "sudheer", 
+        "package_name": "gedit", 
+        "distroseries": "trusty"
+    }, 
+    {
+        "origin": "ubuntu", 
+        "rating": 5, 
+        "hide": false, 
+        "app_name": "Text Editor", 
+        "language": "en", 
+        "reviewer_username": "inoki", 
+        "usefulness_total": 1, 
+        "usefulness_favorable": 1, 
+        "review_text": "I have never had a single issue with it. It's stable, fast and reliable. Only a few plugins didn't work but the essential ones always do. I highly recommend it to everyone.", 
+        "date_deleted": null, 
+        "summary": "A powerful tool in the right hands", 
+        "version": "3.10.4-0ubuntu4", 
+        "id": 96251, 
+        "date_created": "2015-05-16 14:34:17", 
+        "reviewer_displayname": "Patrik Bubák", 
+        "package_name": "gedit", 
+        "distroseries": "trusty"
+    }, 
+    {
+        "origin": "ubuntu", 
+        "rating": 4, 
+        "hide": false, 
+        "app_name": "Text Editor", 
+        "language": "en", 
+        "reviewer_username": "HKXAy3s", 
+        "usefulness_total": 1, 
+        "usefulness_favorable": 1, 
+        "review_text": "Can't edit well with files larger than 500Kbyte.", 
+        "date_deleted": null, 
+        "summary": "Nice But...", 
+        "version": "3.10.4-0ubuntu4", 
+        "id": 92415, 
+        "date_created": "2014-11-26 08:37:39", 
+        "reviewer_displayname": "weixing", 
+        "package_name": "gedit", 
+        "distroseries": "trusty"
+    }, 
+    {
+        "origin": "ubuntu", 
+        "rating": 3, 
+        "hide": false, 
+        "app_name": "Text Editor", 
+        "language": "en", 
+        "reviewer_username": "corphicks", 
+        "usefulness_total": 0, 
+        "usefulness_favorable": 0, 
+        "review_text": "Just why is there no such a thing as Notepad++ for Ubuntu / Linux platform?\n(Emacs: thanks, but no thanks.)", 
+        "date_deleted": null, 
+        "summary": "too basic", 
+        "version": "3.10.4-0ubuntu4", 
+        "id": 97001, 
+        "date_created": "2015-07-19 15:51:00", 
+        "reviewer_displayname": "Csipak Attila", 
+        "package_name": "gedit", 
+        "distroseries": "trusty"
+    }, 
+    {
+        "origin": "ubuntu", 
+        "rating": 5, 
+        "hide": false, 
+        "app_name": "Text Editor", 
+        "language": "en", 
+        "reviewer_username": "dss7F3P", 
+        "usefulness_total": 0, 
+        "usefulness_favorable": 0, 
+        "review_text": "Use it everyday", 
+        "date_deleted": null, 
+        "summary": "I like this", 
+        "version": "3.10.4-0ubuntu4", 
+        "id": 99635, 
+        "date_created": "2016-02-13 09:18:54", 
+        "reviewer_displayname": "prosudsud", 
+        "package_name": "gedit", 
+        "distroseries": "trusty"
+    }, 
+    {
+        "origin": "ubuntu", 
+        "rating": 3, 
+        "hide": false, 
+        "app_name": "Text Editor", 
+        "language": "en", 
+        "reviewer_username": "yc4YHCw", 
+        "usefulness_total": 0, 
+        "usefulness_favorable": 0, 
+        "review_text": "It is a beautiful text editor. Unfortunately it crashes when handling large files and trying to search within them.", 
+        "date_deleted": null, 
+        "summary": "Beautiful text editor, unfortunately unstable.", 
+        "version": "3.10.4-0ubuntu4", 
+        "id": 99397, 
+        "date_created": "2016-01-26 07:41:05", 
+        "reviewer_displayname": "Daniel Bird", 
+        "package_name": "gedit", 
+        "distroseries": "trusty"
+    }, 
+    {
+        "origin": "ubuntu", 
+        "rating": 3, 
+        "hide": false, 
+        "app_name": "Text Editor", 
+        "language": "en", 
+        "reviewer_username": "dinkumdino", 
+        "usefulness_total": 0, 
+        "usefulness_favorable": 0, 
+        "review_text": "Nice interface, but with larger files it will crash or be extremely slow.", 
+        "date_deleted": null, 
+        "summary": "Great for simple things", 
+        "version": "3.10.4-0ubuntu4", 
+        "id": 90721, 
+        "date_created": "2014-09-23 23:10:51", 
+        "reviewer_displayname": "Tristan Dinkum", 
+        "package_name": "gedit", 
+        "distroseries": "trusty"
+    }
+]
